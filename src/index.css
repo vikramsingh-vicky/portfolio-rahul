@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: "DM Sans", system-ui, -apple-system, sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  background: #0c0e12;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Hide scrollbars for a cleaner, scroll-jacked layout */
+html,
+body,
+.deck-container,
+.deck {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+.deck-container::-webkit-scrollbar,
+.deck::-webkit-scrollbar {
+  display: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  color: #e8b86d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f0c87a;
+}
+
+/* Light theme */
+[data-theme="light"] body {
+  color: #1a1d24;
+  background: #e8eaef;
+}
+
+[data-theme="light"] a {
+  color: #b8860b;
+}
+
+[data-theme="light"] a:hover {
+  color: #c9940c;
+}
