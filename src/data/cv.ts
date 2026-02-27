@@ -1,7 +1,7 @@
 export const cv = {
   name: "Rahul Ranjan",
   title: "Data Analyst & Business Intelligence Professional",
-  tagline: "Results-driven Data Analyst & Process Automation Specialist with 8+ years of experience in MIS reporting, workflow automation, and Google Apps Script development. I translate business requirements into scalable automation solutions that reduce manual effort and improve data accuracy.",
+  tagline: "Results-driven Data Analyst & Workflow Automation Specialist with 8+ years of experience in MIS reporting, business intelligence, and Google Apps Script development. I design scalable, data-driven systems that transform manual processes into automated workflows — improving operational efficiency, accuracy, and decision-making visibility across departments.",
   email: "rrjwithu@gmail.com",
   /** Sawad-style stats for hero strip */
   stats: [
@@ -67,7 +67,7 @@ export const cv = {
   location: "New Delhi, India",
   /** WhatsApp QR / contact link (scan to chat) */
   whatsAppQrUrl: "https://wa.me/917011285005",
-  linkedIn: "https://www.linkedin.com/in/rahul-ranjan",
+  linkedIn: "https://www.linkedin.com/in/rrjwithu/",
   /** Updated CV / online resume */
   resumeUrl: "https://flowcv.com/resume/jps3qf0nc9",
   /** About section: structured for enhanced UI */
