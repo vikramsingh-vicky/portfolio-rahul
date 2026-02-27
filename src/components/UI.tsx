@@ -180,7 +180,7 @@ export function UI({
           onClick={() => scrollTo("home")}
           aria-label="Home"
         >
-          VS
+          RR
         </button>
         <div className="nav-right">
           <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
